@@ -2,8 +2,9 @@ package org.smartregister.reveal.presenter;
 
 import android.app.Activity;
 import android.content.Context;
-import androidx.appcompat.app.AlertDialog;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
 
 import net.sqlcipher.Cursor;
 import net.sqlcipher.MatrixCursor;
