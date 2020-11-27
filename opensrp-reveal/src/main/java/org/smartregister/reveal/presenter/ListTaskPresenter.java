@@ -622,7 +622,7 @@ public class ListTaskPresenter implements ListTaskContract.Presenter, PasswordRe
     }
 
     public void onAddStructureClicked(boolean myLocationComponentActive, String point) {
-        String formName = jsonFormUtils.getFormName(REGISTER_STRUCTURE_EVENT, REGISTER_FAMILY);
+        String formName = jsonFormUtils.getFormName(REGISTER_STRUCTURE_EVENT, null);
         try {
             JSONObject formJson = new JSONObject(jsonFormUtils.getFormString(listTaskView.getContext(), formName, null));
             formJson.put(OPERATIONAL_AREA_TAG, operationalArea.toJson());
