@@ -44,6 +44,7 @@ import org.smartregister.reveal.util.FamilyConstants.JSON_FORM;
 import org.smartregister.reveal.util.FamilyJsonFormUtils;
 import org.smartregister.reveal.util.PreferencesUtil;
 import org.smartregister.reveal.util.TestingUtils;
+import org.smartregister.reveal.view.FamilyProfileActivity;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -72,7 +73,7 @@ public class FamilyProfileFragmentPresenterTest extends BaseUnitTest {
     public MockitoRule rule = MockitoJUnit.rule();
 
     @Mock
-    private FamilyProfileContract.View view;
+    private FamilyProfileActivity view;
 
     @Mock
     private FamilyProfileModel model;
